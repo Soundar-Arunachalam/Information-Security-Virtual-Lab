@@ -227,5 +227,6 @@ document.getElementById('startBtn').addEventListener('click', async () => {
     alert('An error occurred: ' + e.message);
   }
   btn.disabled = false;
+  console.log("check successful!!!");
 });
 
