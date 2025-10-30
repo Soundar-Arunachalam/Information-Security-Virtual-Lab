@@ -1,4 +1,4 @@
-<script>
+
 // Helper Functions
 function toHex(num, length = 8) {
   return num.toString(16).padStart(length, '0');
@@ -228,4 +228,4 @@ document.getElementById('startBtn').addEventListener('click', async () => {
   }
   btn.disabled = false;
 });
-</script>
+
